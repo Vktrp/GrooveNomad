@@ -20,6 +20,10 @@ if all_events:
     df = pd.DataFrame(all_events)
     print("\n🎫 Événements trouvés :")
     print(df.to_string(index=False))
+
+    # Export CSV
+    df.to_csv("concerts_resultats.csv", index=False, encoding="utf-8")
+    print("📁 Résultats exportés dans 'concerts_resultats.csv'")
 else:
     print("\n❌ Aucun événement trouvé.")
 
