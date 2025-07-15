@@ -23,7 +23,7 @@ def get_spotify_client():
     print("✅ Authentification Spotify réussie.")
     return sp
 
-def get_top_artists(sp, limit=20):
+def get_top_artists(sp, limit=40):
     time_ranges = ["medium_term", "long_term"]
     artist_set = set()
 
