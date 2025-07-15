@@ -6,13 +6,9 @@
 }
 
 body {
-  background: linear-gradient(to bottom, #001221, #FE8034, #FFBABD, #ffffff);
+  background: linear-gradient(to bottom, #001221, #67ADD9, #FE8034, #FFBABD, #ffffff);
   color: #fff;
   line-height: 1.6;
-}
-
-header {
-  background: transparent;
 }
 
 /* NAVIGATION */
@@ -21,9 +17,9 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 15px 30px;
+  background: rgba(0, 0, 0, 0.3);
   position: sticky;
   top: 0;
-  background: rgba(0, 0, 0, 0.3);
   z-index: 1000;
 }
 
@@ -56,27 +52,26 @@ nav {
   cursor: pointer;
 }
 
-/* LOGO + SLOGAN */
+/* LOGO ET SLOGAN */
 .logo-section {
   text-align: center;
-  margin-top: 20px;
+  margin: 30px auto 20px;
 }
 
 .logo-img {
-  width: 80px;
+  width: 120px;
+  height: auto;
   margin-bottom: 10px;
 }
 
 .slogan {
   font-size: 2.5rem;
   font-weight: 700;
-  text-align: center;
   color: white;
-  margin-bottom: 30px;
   text-shadow: 2px 2px 8px rgba(0,0,0,0.6);
 }
 
-/* IMAGES ET BOUTONS */
+/* IMAGES + BOUTONS */
 .hero-images {
   display: flex;
   justify-content: center;
