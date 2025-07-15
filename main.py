@@ -3,7 +3,7 @@
 print("🚀 Script lancé")
 
 import pandas as pd
-from spotify_utils import get_spotify_client, get_top_artists, get_available_genres
+from spotify_utils import get_spotify_client, get_top_artists, get_user_top_genres
 from ticketmaster_utils import search_events_for_artists
 from clear_cache import clear_spotify_cache
 
@@ -11,9 +11,9 @@ from clear_cache import clear_spotify_cache
 sp = get_spotify_client()
 
 # Genres disponibles sur Spotify
-genres = get_available_genres(sp)
-print("\n🎼 Genres Spotify disponibles :")
-for g in genres:
+user_genres = get_user_top_genres(sp)
+print("\n🎯 Genres musicaux préférés de l'utilisateur :")
+for g in user_genres:
     print(f" - {g}")
 
 # 2. Récupération des artistes

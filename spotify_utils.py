@@ -4,7 +4,7 @@ import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 from config import SPOTIPY_CLIENT_ID, SPOTIPY_CLIENT_SECRET, SPOTIPY_REDIRECT_URI, SCOPE
 import getpass
-import requests
+from collections import Counter
 
 def get_spotify_client():
     print("▶️ Démarrage de l'authentification Spotify...")
@@ -16,9 +16,9 @@ def get_spotify_client():
         client_secret=SPOTIPY_CLIENT_SECRET,
         redirect_uri=SPOTIPY_REDIRECT_URI,
         scope=SCOPE,
-        username=username,              # ← important pour identifier le cache
-        cache_path=f".cache-{username}",# ← crée un fichier unique pour chaque utilisateur
-        show_dialog=True                # ← force toujours la fenêtre d'autorisation
+        username=username,
+        cache_path=f".cache-{username}",
+        show_dialog=True
     ))
 
     print("✅ Authentification Spotify réussie.")
@@ -42,3 +42,20 @@ def get_top_artists(sp, limit=40):
                 print(f" - {name}")
 
     return list(artist_set)
+
+def get_user_top_genres(sp, limit=40, top_n=10):
+    """Récupère les genres dominants à partir des artistes les plus écoutés"""
+    time_ranges = ["medium_term", "long_term"]
+    genres_counter = Counter()
+
+    for time_range in time_ranges:
+        results = sp.current_user_top_artists(limit=limit, time_range=time_range)
+        for artist in results["items"]:
+            genres_counter.update(artist.get("genres", []))
+
+    top_genres = genres_counter.most_common(top_n)
+    print("\n🎼 Genres préférés de l'utilisateur :")
+    for genre, count in top_genres:
+        print(f" - {genre} ({count})")
+
+    return [genre for genre, _ in top_genres]
