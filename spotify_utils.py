@@ -4,6 +4,7 @@ import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 from config import SPOTIPY_CLIENT_ID, SPOTIPY_CLIENT_SECRET, SPOTIPY_REDIRECT_URI, SCOPE
 import getpass
+import requests
 
 def get_spotify_client():
     print("▶️ Démarrage de l'authentification Spotify...")
@@ -40,7 +41,8 @@ def get_top_artists(sp, limit=40):
     return list(artist_set)
 
 def get_available_genres(sp):
-    token = sp.auth_manager.get_access_token(as_dict=False)
+    token_info = sp.auth_manager.get_access_token(as_dict=True)
+    token = token_info["access_token"]
     url = "https://api.spotify.com/v1/recommendations/available-genre-seeds"
     headers = {"Authorization": f"Bearer {token}"}
     resp = requests.get(url, headers=headers)
