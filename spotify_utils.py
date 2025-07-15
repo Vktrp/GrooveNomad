@@ -41,17 +41,24 @@ def get_top_artists(sp, limit=40):
     return list(artist_set)
 
 def get_user_top_genres(sp, limit=40, top_n=10):
-    """Récupère les genres dominants à partir des artistes les plus écoutés"""
+    """Récupère les genres dominants à partir des artistes les plus écoutés, sans doublons"""
     time_ranges = ["medium_term", "long_term"]
-    genres_counter = Counter()
-
+    unique_artists = {}
+    
+    # Rassembler les artistes sans doublons
     for time_range in time_ranges:
         results = sp.current_user_top_artists(limit=limit, time_range=time_range)
         for artist in results["items"]:
-            genres_counter.update(artist.get("genres", []))
+            unique_artists[artist["id"]] = artist  # évite les doublons via ID Spotify
+
+    # Compter les genres à partir des artistes uniques
+    genres_counter = Counter()
+    for artist in unique_artists.values():
+        genres_counter.update(artist.get("genres", []))
 
     top_genres = genres_counter.most_common(top_n)
-    print("\n🎼 Genres préférés de l'utilisateur :")
+
+    print("\n🎼 Genres préférés de l'utilisateur (filtrés sans doublons artiste) :")
     for genre, count in top_genres:
         print(f" - {genre} ({count})")
 
