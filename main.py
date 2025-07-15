@@ -10,6 +10,11 @@ from clear_cache import clear_spotify_cache
 # 1. Authentification Spotify
 sp = get_spotify_client()
 
+# Genres disponibles sur Spotify
+genres = get_available_genres(sp)
+print(f"\n🎵 Genres disponibles sur Spotify ({len(genres)}):")
+print(", ".join(genres))
+
 # 2. Récupération des artistes
 artist_names = get_top_artists(sp)
 

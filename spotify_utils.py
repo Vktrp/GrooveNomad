@@ -38,3 +38,11 @@ def get_top_artists(sp, limit=40):
                 print(f" - {name}")
 
     return list(artist_set)
+
+def get_available_genres(sp):
+    token = sp.auth_manager.get_access_token(as_dict=False)
+    url = "https://api.spotify.com/v1/recommendations/available-genre-seeds"
+    headers = {"Authorization": f"Bearer {token}"}
+    resp = requests.get(url, headers=headers)
+    resp.raise_for_status()
+    return resp.json().get("genres", [])
