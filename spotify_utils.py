@@ -24,6 +24,9 @@ def get_spotify_client():
     print("✅ Authentification Spotify réussie.")
     return sp
 
+def get_available_genres(sp):
+    return sp.recommendation_genre_seeds()["genres"]
+
 def get_top_artists(sp, limit=40):
     time_ranges = ["medium_term", "long_term"]
     artist_set = set()
@@ -39,12 +42,3 @@ def get_top_artists(sp, limit=40):
                 print(f" - {name}")
 
     return list(artist_set)
-
-def get_available_genres(sp):
-    token_info = sp.auth_manager.get_access_token(as_dict=True)
-    token = token_info["access_token"]
-    url = "https://api.spotify.com/v1/recommendations/available-genre-seeds"
-    headers = {"Authorization": f"Bearer {token}"}
-    resp = requests.get(url, headers=headers)
-    resp.raise_for_status()
-    return resp.json().get("genres", [])

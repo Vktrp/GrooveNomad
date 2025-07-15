@@ -12,8 +12,9 @@ sp = get_spotify_client()
 
 # Genres disponibles sur Spotify
 genres = get_available_genres(sp)
-print(f"\n🎵 Genres disponibles sur Spotify ({len(genres)}):")
-print(", ".join(genres))
+print("\n🎼 Genres Spotify disponibles :")
+for g in genres:
+    print(f" - {g}")
 
 # 2. Récupération des artistes
 artist_names = get_top_artists(sp)
