@@ -29,6 +29,9 @@ if all_events:
     print("\n🧹 Événements après suppression des doublons nom_artist ↔ nom_event :")
     print(df_filtered.to_string(index=False))
 
+    # 🔁 Supprimer les doublons (même artiste, même date → une seule ligne)
+    df_filtered = df_filtered.drop_duplicates(subset=["artist", "date"], keep="first")
+
     # 📁 Export CSV
     df_filtered.to_csv("concerts_resultats.csv", index=False, encoding="utf-8")
     print("\n📁 Résultats exportés dans 'concerts_resultats.csv'")
