@@ -24,9 +24,17 @@ def get_spotify_client():
     return sp
 
 def get_top_artists(sp, limit=20):
-    results = sp.current_user_top_artists(limit=limit, time_range="long_term")
-    artist_names = [artist["name"] for artist in results["items"]]
+    time_ranges = ["medium_term", "long_term"]
+    artist_set = set()
+
     print("\n🎧 Tes artistes les plus écoutés :")
-    for name in artist_names:
-        print(f" - {name}")
-    return artist_names
+
+    for time_range in time_ranges:
+        results = sp.current_user_top_artists(limit=limit, time_range=time_range)
+        for artist in results["items"]:
+            name = artist["name"]
+            if name not in artist_set:
+                artist_set.add(name)
+                print(f" - {name}")
+
+    return list(artist_set)
