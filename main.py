@@ -3,7 +3,7 @@
 print("🚀 Script lancé")
 
 import pandas as pd
-from spotify_utils import get_spotify_client, get_top_artists
+from spotify_utils import get_spotify_client, get_top_artists, get_available_genres
 from ticketmaster_utils import search_events_for_artists
 from clear_cache import clear_spotify_cache
 
