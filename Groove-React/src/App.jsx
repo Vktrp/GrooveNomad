@@ -1,8 +1,17 @@
 // src/App.jsx
+import iconFest from './assets/icon_fest.png';
+import iconTrvl from './assets/icon_trvl.png';
+import iconRec from './assets/icon_rec.png';
+
 import './App.css';
 import logo from './assets/Logo_Transparent.png';
 import festivalImg from './assets/Festival_Sunset.jpg';
 import voyageImg from './assets/Woman_Sunset.jpg';
+
+import coachellaImg from './assets/coachella.jpg';
+import lollaImg from './assets/Lollapalooza Paris.png';
+import tomorrowlandImg from './assets/TOMORROWLAND.jpg';
+import itstheshipImg from './assets/ITSTHESHIP.jpg';
 
 function App() {
   return (
@@ -35,38 +44,65 @@ function App() {
         </div>
       </header>
 
-      <section className="about">
-        <h2>A propos</h2>
-        <p>Groove Nomad, c'est l'agence de voyage nouvelle génération pour les amateurs de musique et d'aventure.</p>
-        <div className="features">
-          <div className="feature">
-            <h3>Festivals</h3>
-          </div>
-          <div className="feature">
-            <h3>Voyages</h3>
-          </div>
-          <div className="feature">
-            <h3>Recommandation personnalisée</h3>
-          </div>
-        </div>
-      </section>
+ <section className="about">
+  <h2>A propos</h2>
+  <p>Groove Nomad, c'est l'agence de voyage nouvelle génération pour les amateurs de musique et d'aventure.</p>
+  <div className="features">
+    <div className="feature">
+      <img src={iconFest} alt="Icône Festival" className="feature-icon" />
+      <h3>Festivals</h3>
+    </div>
+    <div className="feature">
+      <img src={iconTrvl} alt="Icône Voyage" className="feature-icon" />
+      <h3>Voyages</h3>
+    </div>
+    <div className="feature">
+      <img src={iconRec} alt="Icône Recommandation" className="feature-icon" />
+      <h3>Recommandation personnalisée</h3>
+    </div>
+  </div>
+</section>
 
       <section className="destinations">
         <h2>Destinations populaires</h2>
         <div className="cards">
-          <div className="card">Image<br />Nom</div>
-          <div className="card">Image<br />Nom</div>
-          <div className="card">Image<br />Nom</div>
-          <div className="card">Image<br />Nom</div>
+          <div className="card">
+            <img src={coachellaImg} alt="Coachella" />
+            <p>Coachella – Californie</p>
+          </div>
+          <div className="card">
+            <img src={lollaImg} alt="Lollapalooza Paris" />
+            <p>Lollapalooza – Paris</p>
+          </div>
+          <div className="card">
+            <img src={tomorrowlandImg} alt="Tomorrowland" />
+            <p>Tomorrowland – Belgique</p>
+          </div>
+          <div className="card">
+            <img src={itstheshipImg} alt="It’s The Ship" />
+            <p>It’s The Ship – Singapour</p>
+          </div>
         </div>
       </section>
 
       <section className="reviews">
         <h2>Avis clients</h2>
         <div className="review-list">
-          <div className="review">Nom<br />★★★★★<br />Commentaire</div>
-          <div className="review">Nom<br />★★★★★<br />Commentaire</div>
-          <div className="review">Nom<br />★★★★★<br />Commentaire</div>
+          <div className="review">
+            <strong>Nom :</strong> Hugo<br />
+            ★★★★★<br />
+            Organisation au top, souvenirs inoubliables.
+          </div>
+          <div className="review">
+            <strong>Nom :</strong> Sofia<br />
+            ★★★★★<br />
+            Une aventure que je n'oublierai jamais.
+          </div>
+          <div className="review">
+            <strong>Nom :</strong> Mateo<br />
+            ★★★★★<br />
+            Je repars dès que possible !
+          </div>
         </div>
       </section>
 
