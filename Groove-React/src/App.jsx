@@ -1,4 +1,4 @@
-// src/App.jsx
+import { useState } from 'react';
 import iconFest from './assets/icon_fest.png';
 import iconTrvl from './assets/icon_trvl.png';
 import iconRec from './assets/icon_rec.png';
@@ -14,17 +14,34 @@ import tomorrowlandImg from './assets/TOMORROWLAND.jpg';
 import itstheshipImg from './assets/ITSTHESHIP.jpg';
 
 function App() {
+  const [menuOpen, setMenuOpen] = useState(false);
+  const [lang, setLang] = useState('FR');
+
+  const toggleLanguage = () => {
+    setLang(lang === 'FR' ? 'EN' : 'FR');
+  };
+
   return (
     <div className="App">
       <header>
         <nav>
-          <div className="burger">&#9776;</div>
-          <ul className="nav-links">
+          {/* Liens de navigation */}
+          <ul className={`nav-links ${menuOpen ? 'active' : ''}`}>
             <li><a href="#">Contact</a></li>
             <li><a href="#">A propos</a></li>
             <li><a href="#">Aide</a></li>
             <li><button className="login">Se connecter</button></li>
           </ul>
+
+          {/* Menu burger déplacé à droite */}
+          <div className="burger" onClick={() => setMenuOpen(!menuOpen)}>
+            &#9776;
+          </div>
+
+          {/* Bouton de langue */}
+          <button className="lang-toggle" onClick={toggleLanguage}>
+            {lang}
+          </button>
         </nav>
 
         <div className="logo-section">
@@ -44,24 +61,24 @@ function App() {
         </div>
       </header>
 
- <section className="about">
-  <h2>A propos</h2>
-  <p>Groove Nomad, c'est l'agence de voyage nouvelle génération pour les amateurs de musique et d'aventure.</p>
-  <div className="features">
-    <div className="feature">
-      <img src={iconFest} alt="Icône Festival" className="feature-icon" />
-      <h3>Festivals</h3>
-    </div>
-    <div className="feature">
-      <img src={iconTrvl} alt="Icône Voyage" className="feature-icon" />
-      <h3>Voyages</h3>
-    </div>
-    <div className="feature">
-      <img src={iconRec} alt="Icône Recommandation" className="feature-icon" />
-      <h3>Recommandation personnalisée</h3>
-    </div>
-  </div>
-</section>
+      <section className="about">
+        <h2>A propos</h2>
+        <p>Groove Nomad, c'est l'agence de voyage nouvelle génération pour les amateurs de musique et d'aventure.</p>
+        <div className="features">
+          <div className="feature">
+            <img src={iconFest} alt="Icône Festival" className="feature-icon" />
+            <h3>Festivals</h3>
+          </div>
+          <div className="feature">
+            <img src={iconTrvl} alt="Icône Voyage" className="feature-icon" />
+            <h3>Voyages</h3>
+          </div>
+          <div className="feature">
+            <img src={iconRec} alt="Icône Recommandation" className="feature-icon" />
+            <h3>Recommandation personnalisée</h3>
+          </div>
+        </div>
+      </section>
 
       <section className="destinations">
         <h2>Destinations populaires</h2>
