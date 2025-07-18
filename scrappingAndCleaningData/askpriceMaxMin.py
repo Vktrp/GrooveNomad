@@ -3,7 +3,7 @@ import time
 import google.generativeai as genai
  
 # === Configuration Gemini ===
-genai.configure(api_key="AIzaSyBvxoPLxuctwm0Ylo7Cp0E-2JW1ypHM0U4")
+genai.configure(api_key="EnLocalSurOrdiJoel")
 model = genai.GenerativeModel("gemini-2.0-flash")
  
 # === Chargement du fichier contenant les noms des festivals ===
