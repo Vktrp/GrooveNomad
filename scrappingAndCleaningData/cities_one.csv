@@ -1,0 +1,741 @@
+city,country,continent
+Fuengirola,Spain,Europe
+Lisbon,Portugal,Europe
+Gravenhurst,Canada,North America
+Gijón,Spain,Europe
+Grand Rapids,United States of America,North America
+Burlington,United States of America,North America
+Cologne,Germany,Europe
+Kyiv,Ukraine,Europe
+Monmouthsire,United Kingdom,Europe
+Seattle,United States of America,North America
+Twin Lakes,United States of America,North America
+Wurster Nordseeküste,Germany,Europe
+Dour,Belgium,Europe
+Bontida,Romania,Europe
+Hertfordshire,United Kingdom,Europe
+Trumansburg,United States of America,North America
+Monticello,United States of America,North America
+Oak Hill,United States of America,North America
+Guelph,Canada,North America
+Joensuu,Finland,Europe
+Mansfield,United States of America,North America
+Carhaix,France,Europe
+Paris,France,Europe
+Praia do Cabedelo,Portugal,Europe
+Chicago,United States of America,North America
+Saint Paul,United States of America,North America
+Piercy,United States of America,North America
+Herefordshire,United Kingdom,Europe
+Tjentiste,Bosnia & Herzegovina,Europe
+Weeze,Germany,Europe
+Denver,United States of America,North America
+Santo Domingo de la Calzada,Spain,Europe
+Freiburg,Germany,Europe
+Nottingham,United Kingdom,Europe
+Ribble Valley,United Kingdom,Europe
+Cambridgeshire,United Kingdom,Europe
+Whitefish,United States of America,North America
+Vancouver,Canada,North America
+Winter Park,United States of America,North America
+Lichtenvoorde,Netherlands,Europe
+Tisno,Croatia,Europe
+Idanha-A-Nova,Portugal,Europe
+Sibiu,Romania,Europe
+Velence,Hungary,Europe
+Kent,United Kingdom,Europe
+Los Angeles,United States of America,North America
+Cardiff,United Kingdom,Europe
+Johnstown,United States of America,North America
+Crystal Bay,United States of America,North America
+Three Forks,United States of America,North America
+Southend-on-Sea,United Kingdom,Europe
+Amsterdam,Netherlands,Europe
+Fraga,Spain,Europe
+Yerington,United States of America,North America
+Petaluma,United States of America,North America
+Indianapolis,United States of America,North America
+Topanga,United States of America,North America
+New York,United States of America,North America
+Carnation,United States of America,North America
+"Okinawa, Osaka, Tokyo",Japan Tour,Asia
+Artemas,United States of America,North America
+Calgary,Canada,North America
+Dorset,United Kingdom,Europe
+Stevenage,United Kingdom,Europe
+Cheyenne,United States of America,North America
+Karlsruhe,Germany,Europe
+Floyd,United States of America,North America
+Laois,Ireland,Europe
+Niigata,Japan,Asia
+Patchogue,United States of America,North America
+Plovdiv,Bulgaria,Europe
+London,United Kingdom,Europe
+Edmonton,Canada,North America
+Suffolk,United Kingdom,Europe
+Oudkarspel,Netherlands,Europe
+Benidorm,Spain,Europe
+Trogir,Croatia,Europe
+Newport,United States of America,North America
+Skokie,United States of America,North America
+Nyon,Switzerland,Europe
+Valle D'Itria,Italy,Europe
+Poole,United Kingdom,Europe
+Portland,United States of America,North America
+White Sulphur Springs,United States of America,North America
+Wadebridge,United Kingdom,Europe
+Lyons,United States of America,North America
+Salmon Arm,Canada,North America
+Standon,United Kingdom,Europe
+Abertillery,United Kingdom,Europe
+Elkhart Lake,United States of America,North America
+Guisborough,United Kingdom,Europe
+Louisville,United States of America,North America
+Franklin,United States of America,North America
+Chester,United Kingdom,Europe
+Boom,Belgium,Europe
+Toronto,Canada,North America
+Sheffield,United Kingdom,Europe
+Oxfordshire,United Kingdom,Europe
+Viljandi,Estonia,Europe
+Long Beach,United States of America,North America
+Malmesbury,United Kingdom,Europe
+Topcliffe,United Kingdom,Europe
+Wales,United Kingdom,Europe
+Salmo,Canada,North America
+Carcassonne,France,Europe
+Le Barcares,France,Europe
+Novalja,Croatia,Europe
+Beauly,Scotland,Europe
+Bergen,Norway,Europe
+Cincinnati,United States of America,North America
+Newport,United Kingdom,Europe
+Prairie du Chien,United States of America,North America
+Thornville,United States of America,North America
+Kato Drys,Cyprus,Asia
+Prague,Czech,Europe
+Omaha,United States of America,North America
+Copenhagen,Denmark,Europe
+Czaplinek,Poland,Europe
+Pori,Finland,Europe
+Brownstown,United States of America,North America
+Helena,United States of America,North America
+Liepaja,Latvia,Europe
+Lustenau,Austria,Europe
+Basel,Switzerland,Europe
+Tahlequah,United States of America,North America
+Wacken,Germany,Europe
+Helsinki,Finland,Europe
+Big Sky,United States of America,North America
+Tarn,France,Europe
+Waterford,Ireland,Europe
+Saint John,United States of America,North America
+Borianna,Spain,Europe
+Blain,United States of America,North America
+Camrose,Canada,North America
+Keystone,United States of America,North America
+Cambridge,United Kingdom,Europe
+Amsterdam,Nederland,Europe
+Stirlingshire,Scotland,Europe
+Lviv,Ukraine,Europe
+Frontignan,France,Europe
+Des Moines,United States of America,North America
+Kaslo,Canada,North America
+Cumbria,United Kingdom,Europe
+Birmingham,United Kingdom,Europe
+Mammoth Lakes,United States of America,North America
+Šibenik,Croatia,Europe
+Appleton,United States of America,North America
+Kastellaun,Germany,Europe
+Anglefort,France,Europe
+Notodden,Norway,Europe
+Katowice,Poland,Europe
+Ohrid,Macedonia,Europe
+Sweet Home,United States of America,North America
+Montreal,Canada,North America
+Kalamata,Greece,Europe
+Incheon,South Korea,Asia
+Happy Valley,United States of America,North America
+Mulhurst Bay,Canada,North America
+Brighton,United Kingdom,Europe
+Milton Keynes,United Kingdom,Europe
+Garberville,United States of America,North America
+Del Norte,United States of America,North America
+Minnedosa,Manitoba,North America
+Râșnov,Romania,Europe
+Ninilchik,United States of America,North America
+Roermond,Netherlands,Europe
+Whitwell,United States of America,North America
+Lake Cowichan,Canada,North America
+Prishtina,Kosovo,Europe
+Vertheuil,France,Europe
+Bozeman,United States of America,North America
+Saint-Maurice-de-Gourdans,France,Europe
+Chew Magna,United Kingdom,Europe
+George,United States of America,North America
+Wickham,United Kingdom,Europe
+Derbyshire,United Kingdom,Europe
+Bacău,Romania,Europe
+Garbicz,Poland,Europe
+Dádpuszta,Hungary,Europe
+Tolmin,Slovenia,Europe
+Arcadia,United States of America,North America
+Bond,United States of America,North America
+Challis,United States of America,North America
+Jaroměř,Czech,Europe
+Velsen,Netherlands,Europe
+Salt Lake City,United States of America,North America
+New River Gorge,United States of America,North America
+Banja Luka,Bosnia and Herzegovina,Europe
+Piešťany,Slovakia,Europe
+Haldern,Germany,Europe
+Richmond,United States of America,North America
+Villena,Spain,Europe
+Vrnjačka Banja,Serbia,Europe
+North Lawrence,United States of America,North America
+Viana do Castelo,Portugal,Europe
+Oslo,Norway,Europe
+Unterbildein,Austria,Europe
+Riga,Latvia,Europe
+Victoriaville,Canada,North America
+Vienna,Austria,Europe
+Vila Praia de Âncora,Portugal,Europe
+Schaffhausen,Switzerland,Europe
+Zambujeira Do Mar,Portugal,Europe
+Frederiksberg,Denmark,Europe
+Philadelphia,United States of America,North America
+Aspen,United States of America,North America
+Goteborg,Sweden,Europe
+Detroit Lakes,United States of America,North America
+Oshkosh,United States of America,North America
+Kortrijk,Belgium,Europe
+Nottinghamshire,United Kingdom,Europe
+Rosarito Beach,Mexico,North America
+Bellaria Igea Marina,Italy,Europe
+Duluth,United States of America,North America
+Newquay,United Kingdom,Europe
+Hampshire,United Kingdom,Europe
+Oro-Medonte,Canada,North America
+Washington,United States of America,North America
+Barcelona,Spain,Europe
+Amaranth,Canada,North America
+Villaricos,Spain,Europe
+Echternach,Luxembourg,Europe
+Edmonton,Canada,North America
+Erkelenz,Germany,Europe
+Long Pond,United States of America,North America
+Alta,United States of America,North America
+Houghton,United Kingdom,Europe
+Bridport,United Kingdom,Europe
+Ledbury,United Kingdom,Europe
+Cannes,France,Europe
+Lokeren,Belgium,Europe
+Hildesheim,Germany,Europe
+Primišlje,Croatia,Europe
+Bethlehem,United States of America,North America
+Fraisans,France,Europe
+Eschwege,Germany,Europe
+San Francisco,United States of America,North America
+Ilino,Serbia,Europe
+Darrington,United States of America,North America
+Blackpool,United Kingdom,Europe
+San Jose,United States of America,North America
+Skanderborg,Denmark,Europe
+Saalburg-Ebersdorf,Germany,Europe
+Buftea,Romania,Europe
+Republic,United States of America,North America
+Rothenburg ob der Tauber,Germany,Europe
+Telluride,United States of America,North America
+Cluj,Romania,Europe
+Castelbuono,Italy,Europe
+Spaarnwoude,Netherlands,Europe
+Fredericton,United States of America,North America
+Cullera,Spain,Europe
+Belden,United States of America,North America
+Budapest,Hungary,Europe
+Put-In-Bay,United States of America,North America
+St. Polten,Austria,Europe
+Compton Martin,United Kingdom,Europe
+Tampere,Finland,Europe
+Nashville,United States of America,North America
+Bad Aibling,Germany,Europe
+Haz-Zebbug,Malta,Europe
+Halifax,Canada,North America
+St Malo,France,Europe
+Doksy,Czech,Europe
+Hamburg,Germany,Europe
+Oak Park,United States of America,North America
+Vitigliano,Italy,Europe
+Paredes de Coura,Portugal,Europe
+Park City,United States of America,North America
+Trondheim,Norway,Europe
+Sardinia,Italy,Europe
+Moravsky Krumlov,Czech,Europe
+Norwich,United Kingdom,Europe
+"Weeze, NRW",Germany,Europe
+Phoenix,United States of America,North America
+Dinkelsbuhl,Germany,Europe
+Detroit,United States of America,North America
+Arriondas,Spain,Europe
+Ottery Saint Mary,United Kingdom,Europe
+Charleville-Mézières,France,Europe
+Navarro,United States of America,North America
+Hilvarenbeek,Netherlands,Europe
+Tenetiše,Slovenia,Europe
+Eindhoven,Netherlands,Europe
+Norfolk,United Kingdom,Europe
+Buena Vista,United States of America,North America
+Brecon Beacons,United Kingdom,Europe
+Manchester,United States of America,North America
+Stockton-on-Tees,United Kingdom,Europe
+Leipzig,Germany,Europe
+Bratislava,Slovakia,Europe
+Biddinghuizen,Netherlands,Europe
+Milwaukee,United States of America,North America
+Carhaix-Plouguer,France,Europe
+Gampel,Switzerland,Europe
+Cres,Croatia,Europe
+Upper Salford,United States of America,North America
+Kiewit-Hasselt,Belgium,Europe
+Wareham,United Kingdom,Europe
+Henley,United Kingdom,Europe
+Elora,Canada,North America
+Sacramento,United States of America,North America
+Palm Springs,United States of America,North America
+Buckinghamshire,United Kingdom,Europe
+Tokyo/Osaka,Japan,Asia
+Driffield,United Kingdom,Europe
+San Venanzo,Italy,Europe
+Wimborne St Giles,United Kingdom,Europe
+Zeebrugge Beach,Belgium,Europe
+Westmeath,Ireland,Europe
+Wrexham,United Kingdom,Europe
+Rhodope Mountains,Bulgaria,Europe
+St Paul's Bay,Malta,Europe
+Torremolinos,Spain,Europe
+Auburn,United States of America,North America
+St. Agapit,Canada,North America
+Castellón,Spain,Europe
+Durango,United States of America,North America
+Olympia,United States of America,North America
+Zamárdi,Hungary,Europe
+Esbjerg,Denmark,Europe
+Pittsboro,United States of America,North America
+Le Touquet-Paris-Plage,France,Europe
+Château-Gontier-sur-Mayenne,France,Europe
+Vilar de Mouros,Portugal,Europe
+Dieppe,United States of America,North America
+Romano D'ezzelino,Italy,Europe
+Harwinton,United States of America,North America
+Overton,United Kingdom,Europe
+Daresbury,United Kingdom,Europe
+Belfast,United Kingdom,Europe
+Bristol,United Kingdom,Europe
+Buckinham,United Kingdom,Europe
+Exeter,United Kingdom,Europe
+Jakarta,Indonesia,Asia
+Leeds,United Kingdom,Europe
+Lincolnshire,United Kingdom,Europe
+North Charleston,United States of America,North America
+Haarlemmermeer,Netherlands,Europe
+Duren,Germany,Europe
+Reading,United Kingdom,Europe
+Northamptonshire,United Kingdom,Europe
+Chipping Norton,United Kingdom,Europe
+Russell,United States of America,North America
+Lutterworth,United Kingdom,Europe
+Portsmouth,United Kingdom,Europe
+Alcester,United Kingdom,Europe
+Big River,Canada,North America
+Manchester,United Kingdom,Europe
+Shrewsbury,United Kingdom,Europe
+Cornwall,United Kingdom,Europe
+Edinburgh,Scotland,Europe
+Rocca Malatestian,Italy,Europe
+"Boston, Halifax, & St. John",Canada,North America
+San Bernardino,United States of America,North America
+Hannover,Germany,Europe
+Berwick-upon-Tweed,United Kingdom,Europe
+Peoria,United States of America,North America
+Malmo,Sweden,Europe
+Szeged,Hungary,Europe
+Tønder,Denmark,Europe
+Zurich,Switzerland,Europe
+Lake George,United States of America,North America
+Weston,United States of America,North America
+Woodstown,United States of America,North America
+Marseille,France,Europe
+Mill Spring,United States of America,North America
+Edinburgh,United Kingdom,Europe
+Tollard Royal,United Kingdom,Europe
+Colville,United States of America,North America
+Halkdiki,Greece,Europe
+Spirithaven,United States of America,North America
+Darmstadt,Germany,Europe
+Rapoula do Côa,Portugal,Europe
+San Diego,United States of America,North America
+Vlieland,Netherlands,Europe
+Snowmass,United States of America,North America
+High Point,United States of America,North America
+Orlando,United States of America,North America
+Groningen,Netherlands,Europe
+Redmond,United States of America,North America
+Charlestown,United States of America,North America
+Pryor,United States of America,North America
+Montague,United States of America,North America
+Manteno,United States of America,North America
+Munich,Germany,Europe
+Las Vegas,United States of America,North America
+Québec City,Canada,North America
+Gerlach,United States of America,North America
+Detroit,United States of America,North America
+Eldena,Germany,Europe
+Kempton,United States of America,North America
+Clark's Grove,United States of America,North America
+Fairmont Hot Springs,Canada,North America
+Worcester,United States of America,North America
+Tilburg,Netherlands,Europe
+Missoula,United States of America,North America
+Raleigh,United States of America,North America
+Atlanta,United States of America,North America
+Saint Helens,United Kingdom,Europe
+Madison,United States of America,North America
+Zaragoza,Spain,Europe
+Keansburg,United States of America,North America
+Brussels,Belgium,Europe
+Bowling Green,United States of America,North America
+La Cygne,United States of America,North America
+Florence,Italy,Europe
+Miranda de Ebro,Spain,Europe
+Evanston,United States of America,North America
+Caneadea,United States of America,North America
+Tulsa,United States of America,North America
+Chelmsford,United Kingdom,Europe
+Mundelein,United States of America,North America
+Aztec,United States of America,North America
+Remus,United States of America,North America
+Mankato,United States of America,North America
+Pyror,United States of America,North America
+Elmhurst,United States of America,North America
+Quebec City,Canada,North America
+Chandler,United States of America,North America
+Winchester,United Kingdom,Europe
+Athens,Greece,Europe
+Cody,United States of America,North America
+Annapolis,United States of America,North America
+Pinecrest,United States of America,North America
+East Aurora,United States of America,North America
+Breckenridge,United States of America,North America
+Bruges,Belgium,Europe
+Ottawa,Canada,North America
+Pittsburgh,United States of America,North America
+Jackson,United States of America,North America
+Clarks Grove,United States of America,North America
+Eganville,Canada,North America
+Le Plessis-Pâté,France,Europe
+McHenry,United States of America,North America
+St. Louis,United States of America,North America
+Flagstaff,United States of America,North America
+Victoria,Canada,North America
+Asbury Park,United States of America,North America
+Cavendish,Canada,North America
+São Paulo,Brazil,South America
+Tokyo,Japan,Asia
+Grimbergen,Belgium,Europe
+Townsend,United States of America,North America
+Minneapolis,United States of America,North America
+Lewisburg,United States of America,North America
+Amersfoort,Netherlands,Europe
+Champaign,United States of America,North America
+Salida,United States of America,North America
+Lido Ascona,Switzerland,Europe
+Kaunas,Lithuania,Europe
+Larnaca,Cyprus,Asia
+Bristol,United States of America,North America
+Gstaad,Switzerland,Europe
+Frankenmuth,United States of America,North America
+North Adams,United States of America,North America
+St Augustine,United States of America,North America
+Oceanside,United States of America,North America
+Accord,United States of America,North America
+Camden,United States of America,North America
+Charlotte,United States of America,North America
+Brooklyn,United States of America,North America
+Vincennes,United States of America,North America
+Arnhem,Netherlands,Europe
+Columbia,United States of America,North America
+La Crosse,United States of America,North America
+St. Louis,United States of America,North America
+New York City,United States of America,North America
+Austin,United States of America,North America
+Monterey,United States of America,North America
+Ocean City,United States of America,North America
+Dana Point,United States of America,North America
+Umatilla,United States of America,North America
+Perris,United States of America,North America
+Sisters,United States of America,North America
+Bridgeport,United States of America,North America
+Kiel,Germany,Europe
+Chattanooga,United States of America,North America
+Murphysboro,United States of America,North America
+Huntsville,United States of America,North America
+Oakdale,United States of America,North America
+Messplatz,Germany,Europe
+Livingston,United States of America,North America
+Reno,United States of America,North America
+Aiken,United States of America,North America
+Hammonton,United States of America,North America
+Fairfield,United States of America,North America
+Dortmund,Germany,Europe
+Ozark,United States of America,North America
+Attard,Malta,Europe
+Winnsboro,United States of America,North America
+Birmingham,United States of America,North America
+Memphis,United States of America,North America
+Essaouira,Morocco,Africa
+Miramar Beach,United States of America,North America
+Barreiro,Portugal,Europe
+Wee Jasper,Australia,Oceania
+Oberhausen,Germany,Europe
+Morelos,Mexico,North America
+Fort Smith,United States of America,North America
+Charleston,United States of America,North America
+Madrid,Spain,Europe
+Middlesbrough,United Kingdom,Europe
+Bellingham,United States of America,North America
+Big Stone Gap,United States of America,North America
+Pelhman,United States of America,North America
+Santiago,Chile,South America
+Greenville,United States of America,North America
+Eureka Springs,United States of America,North America
+Joshua Tree,United States of America,North America
+Frankfurt,Germany,Europe
+Mareeba,Australia,Oceania
+Florence,United States of America,North America
+Live Oak,United States of America,North America
+Darlington,United States of America,North America
+Sao Paulo,Brazil,South America
+Kraków,Poland,Europe
+Arrington,United States of America,North America
+Apple Valley,United States of America,North America
+Tucson,United States of America,North America
+Miami,United States of America,North America
+Kitchener,Canada,North America
+Caen,France,Europe
+Mannheim,Germany,Europe
+San Antonio,United States of America,North America
+Cardiff,United Kingdom,Europe
+Antwerp,Belgium,Europe
+Sydney,Australia,Oceania
+Lake Worth,United States of America,North America
+Peak Crossing,Australia,Oceania
+Grass Valley,United States of America,North America
+Querétaro,Mexico,North America
+Cape Town,South Africa,Africa
+Melbourne,Australia,Oceania
+Gainsville,United States of America,North America
+Mamanucas,Fiji,Oceania
+Bilbao,Spain,Europe
+Columbus,United States of America,North America
+Torino,Italy,Europe
+Medellín,Colombia,South America
+Whroo,Australia,Oceania
+Mykonos,Greece,Europe
+Miami & Cozumel,Mexico,North America
+Miami & Harvest Caye,Belize,North America
+Dunedin,New Zealand,Oceania
+Umea,Sweden,Europe
+Reykjavik,Iceland,Europe
+Queensland,Australia,Oceania
+Great Yarmouth,United Kingdom,Europe
+Tacoma,United States of America,North America
+Utrecht,Netherlands,Europe
+Minehead,United Kingdom,Europe
+Rapid City,United States of America,North America
+Brooksville,United States of America,North America
+Mexico City,Mexico,North America
+Pattaya City,Thailand,Asia
+Lake Wales,United States of America,North America
+Weissenhäuser Strand,Germany,Europe
+Tocumwal,Australia,Oceania
+Hanover,Germany,Europe
+Schleswig-Holstein,Germany,Europe
+Senayan,Indonesia,Asia
+Holstein,Germany,Europe
+Queenscliff,Australia,Oceania
+Saalbach-Hinterglemm,Austria,Europe
+Bayamon,United States of America,North America
+Bangkok,Thailand,Asia
+Hong Kong,China,Asia
+Cancun,Mexico,North America
+Rennes,France,Europe
+Meredith,Australia,Oceania
+Victoria,Australia,Oceania
+Salzburg,Austria,Europe
+Les 2 Alpes,France,Europe
+Riyadh,Saudi Arabia,Asia
+Bali,Indonesia,Asia
+Saalbach Hinterglemm,Austria,Europe
+Perth,Australia,Oceania
+Puerto Morelos,Mexico,North America
+Pattaya,Thailand,Asia
+Dallas,United States of America,North America
+Wanaka,New Zealand,Oceania
+Glenworth Valley,Australia,Oceania
+Gisborne,New Zealand,Oceania
+Woodford,Australia,Oceania
+Steamboat Springs,United States of America,North America
+Puerto Aventuras,Mexico,North America
+Mesa,United States of America,North America
+Phuket,Thailand,Asia
+Santa Rosa Beach,United States of America,North America
+Les Deux Alpes,France,Europe
+"Ft. Lauderdale, Key West",Belize,North America
+Tamworth,Australia,Oceania
+Key West,United States of America,North America
+Nassau,Bahamas,North America
+Ft. Lauderdale,United States of America,North America
+Miami & Nassau,Bahamas,North America
+Bognor Regis,United Kingdom,Europe
+Puerto Plata,Dominican Republic,North America
+Vilnius,Lithuania,Europe
+The Hague,Netherlands,Europe
+Tasmania,Australia,Oceania
+"Miami, Belize, and Cozumel",Mexico,North America
+Cordoba,Argentina,South America
+Northglenn,United States of America,North America
+Buenos Aires,Argentina,South America
+Bellevue,United States of America,North America
+Christchurch,New Zealand,Oceania
+Jefferson,United States of America,North America
+Wittenburg,Germany,Europe
+Graz,Austria,Europe
+Uvita,Costa Rica,North America
+Santo Domingo Este,Dominican Republic,North America
+Riviersonderend,South Africa,Africa
+Miami & Puerto Plata,Dominican Republic,North America
+Port Fairy,Australia,Oceania
+Adelaide,Australia,Oceania
+Miami Beach,United States of America,North America
+St. Petersburg,United States of America,North America
+Playa Chiquita,Panama,North America
+St. Johns,Antigua and Barbuda,North America
+Abilene,United States of America,North America
+Avoriaz,France,Europe
+Willowbank,Australia,Oceania
+Okeechobee,United States of America,North America
+Leysin,Switzerland,Europe
+Alpe d'Huez,France,Europe
+Houston,United States of America,North America
+Knoxville,United States of America,North America
+Boise,United States of America,North America
+Snook,United States of America,North America
+Byron Bay,Australia,Oceania
+Hoa Binh,Vietnam,Asia
+Schijndel,Netherlands,Europe
+Tallinn,Estonia,Europe
+Mayrhofen,Austria,Europe
+Zermatt,Switzerland,Europe
+Great Stirrup Cay,Bahamas,North America
+Sölden,Austria,Europe
+Rotterdam,Netherlands,Europe
+Boulder,United States of America,North America
+Indio,United States of America,North America
+New Orleans,United States of America,North America
+Dale,United States of America,North America
+El Sargento,Mexico,North America
+Wilkesboro,United States of America,North America
+Panama City Beach,United States of America,North America
+Bloemfontein,South Africa,Africa
+Redondo Beach,United States of America,North America
+Liverpool,United Kingdom,Europe
+Ayr,United Kingdom,Europe
+Blandford,United Kingdom,Europe
+San José del Cabo,Mexico,North America
+Daytona Beach,United States of America,North America
+Placerville,United States of America,North America
+North Shields,United Kingdom,Europe
+Erp,Netherlands,Europe
+Napa,United States of America,North America
+Cumberland,United States of America,North America
+Bristol/Nottingham,United Kingdom,Europe
+Houthalen-Helchteren,Belgium,Europe
+Port Talbot,United Kingdom,Europe
+Bakersfield,United States of America,North America
+Baltimore,United States of America,North America
+Saint-Laurent-de-Cuves,France,Europe
+Norfolk,United States of America,North America
+Axton,United States of America,North America
+Chillicothe,United States of America,North America
+Memmingerberg,Germany,Europe
+Lincoln,United Kingdom,Europe
+Augusta,United States of America,North America
+Lake Como,Italy,Europe
+Aztec,United States of America,North America
+Redruth,United Kingdom,Europe
+Bugibba,Malta,Europe
+Hulst,Netherlands,Europe
+Cheltenham,United Kingdom,Europe
+Munster,Germany,Europe
+Cadott,United States of America,North America
+Gdańsk,Poland,Europe
+Aarhus,Denmark,Europe
+Wels,Austria,Europe
+Solvesborg,Sweden,Europe
+McKinney,United States of America,North America
+Myrtle Beach,United States of America,North America
+Grantham,United Kingdom,Europe
+Oisterwijk,Netherlands,Europe
+Nürburg,Germany,Europe
+Nuremberg,Germany,Europe
+Perranporth,United Kingdom,Europe
+Pag Island,Croatia,Europe
+Santorini,Greece,Europe
+Dhërmi,Albania,Europe
+Interlaken,Switzerland,Europe
+Karlstad,United States of America,North America
+Porto,Portugal,Europe
+Hradec Kralove,Czech,Europe
+Fano,Italy,Europe
+Glendalough Estate,Ireland,Europe
+Donington Park,United Kingdom,Europe
+Leeuwarden,Netherlands,Europe
+Turku,Finland,Europe
+Calvià,Spain,Europe
+Nickelsdorf,Austria,Europe
+Stockholm,Sweden,Europe
+Anchorage,United States of America,North America
+Moffat,Scotland,Europe
+Dhermi,Albania,Europe
+Kværndrup,Denmark,Europe
+Grolloo,Netherlands,Europe
+Julianadorp,Netherlands,Europe
+Edmonton,United States of America,North America
+Liverpool,England,Europe
+Wildwood,United States of America,North America
+Boone,United States of America,North America
+Dessel,Belgium,Europe
+Greenfield,United States of America,North America
+Clisson,France,Europe
+Ferropolis,Germany,Europe
+Scheessel,Germany,Europe
+Isle of Wight,United Kingdom,Europe
+Landgraaf,Netherlands,Europe
+Neuhausen Ob Eck,Germany,Europe
+Crato,Portugal,Europe
+Zagreb,Croatia,Europe
+Valencia,Spain,Europe
+Seinajoki,Finland,Europe
+Rochester,United States of America,North America
+Grenchen,Swizterland,Europe
+Odense,Denmark,Europe
+Ysselsteyn,Netherlands,Europe
+Lille,Belgium,Europe
+Hartford,United States of America,North America
+Ulaanbaatar,Mongolia,Asia
+Vivero,Spain,Europe
+Tenby,United Kingdom,Europe
+Neustadt-Glewe,Germany,Europe
+Brugge,Belgium,Europe
+Berlin,Germany,Europe
+Cheshire,United Kingdom,Europe
